@@ -1,0 +1,15 @@
+C:\Users\iprem\source\repos\bytebank\DesafioSupermercado\bin\Debug\net6.0\DesafioSupermercado.exe
+C:\Users\iprem\source\repos\bytebank\DesafioSupermercado\bin\Debug\net6.0\DesafioSupermercado.deps.json
+C:\Users\iprem\source\repos\bytebank\DesafioSupermercado\bin\Debug\net6.0\DesafioSupermercado.runtimeconfig.json
+C:\Users\iprem\source\repos\bytebank\DesafioSupermercado\bin\Debug\net6.0\DesafioSupermercado.dll
+C:\Users\iprem\source\repos\bytebank\DesafioSupermercado\bin\Debug\net6.0\DesafioSupermercado.pdb
+C:\Users\iprem\source\repos\bytebank\DesafioSupermercado\obj\Debug\net6.0\DesafioSupermercado.csproj.AssemblyReference.cache
+C:\Users\iprem\source\repos\bytebank\DesafioSupermercado\obj\Debug\net6.0\DesafioSupermercado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iprem\source\repos\bytebank\DesafioSupermercado\obj\Debug\net6.0\DesafioSupermercado.AssemblyInfoInputs.cache
+C:\Users\iprem\source\repos\bytebank\DesafioSupermercado\obj\Debug\net6.0\DesafioSupermercado.AssemblyInfo.cs
+C:\Users\iprem\source\repos\bytebank\DesafioSupermercado\obj\Debug\net6.0\DesafioSupermercado.csproj.CoreCompileInputs.cache
+C:\Users\iprem\source\repos\bytebank\DesafioSupermercado\obj\Debug\net6.0\DesafioSupermercado.dll
+C:\Users\iprem\source\repos\bytebank\DesafioSupermercado\obj\Debug\net6.0\refint\DesafioSupermercado.dll
+C:\Users\iprem\source\repos\bytebank\DesafioSupermercado\obj\Debug\net6.0\DesafioSupermercado.pdb
+C:\Users\iprem\source\repos\bytebank\DesafioSupermercado\obj\Debug\net6.0\DesafioSupermercado.genruntimeconfig.cache
+C:\Users\iprem\source\repos\bytebank\DesafioSupermercado\obj\Debug\net6.0\ref\DesafioSupermercado.dll
