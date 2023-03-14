@@ -1,0 +1,15 @@
+C:\Users\iprem\source\repos\bytebank\DesafioLanchonete\bin\Debug\net6.0\DesafioLanchonete.exe
+C:\Users\iprem\source\repos\bytebank\DesafioLanchonete\bin\Debug\net6.0\DesafioLanchonete.deps.json
+C:\Users\iprem\source\repos\bytebank\DesafioLanchonete\bin\Debug\net6.0\DesafioLanchonete.runtimeconfig.json
+C:\Users\iprem\source\repos\bytebank\DesafioLanchonete\bin\Debug\net6.0\DesafioLanchonete.dll
+C:\Users\iprem\source\repos\bytebank\DesafioLanchonete\bin\Debug\net6.0\DesafioLanchonete.pdb
+C:\Users\iprem\source\repos\bytebank\DesafioLanchonete\obj\Debug\net6.0\DesafioLanchonete.csproj.AssemblyReference.cache
+C:\Users\iprem\source\repos\bytebank\DesafioLanchonete\obj\Debug\net6.0\DesafioLanchonete.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iprem\source\repos\bytebank\DesafioLanchonete\obj\Debug\net6.0\DesafioLanchonete.AssemblyInfoInputs.cache
+C:\Users\iprem\source\repos\bytebank\DesafioLanchonete\obj\Debug\net6.0\DesafioLanchonete.AssemblyInfo.cs
+C:\Users\iprem\source\repos\bytebank\DesafioLanchonete\obj\Debug\net6.0\DesafioLanchonete.csproj.CoreCompileInputs.cache
+C:\Users\iprem\source\repos\bytebank\DesafioLanchonete\obj\Debug\net6.0\DesafioLanchonete.dll
+C:\Users\iprem\source\repos\bytebank\DesafioLanchonete\obj\Debug\net6.0\refint\DesafioLanchonete.dll
+C:\Users\iprem\source\repos\bytebank\DesafioLanchonete\obj\Debug\net6.0\DesafioLanchonete.pdb
+C:\Users\iprem\source\repos\bytebank\DesafioLanchonete\obj\Debug\net6.0\DesafioLanchonete.genruntimeconfig.cache
+C:\Users\iprem\source\repos\bytebank\DesafioLanchonete\obj\Debug\net6.0\ref\DesafioLanchonete.dll

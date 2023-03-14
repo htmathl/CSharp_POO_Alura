@@ -4,34 +4,35 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using bytebank.Titular;
 
-namespace bytebank
+namespace bytebank.Contas
 {
     public class ContaCorrente
     {
         public int numeroAgencia;
         public string conta;
-        public string titular;
-        public double saldo = 0;
+        public Cliente titular;
+        private double saldo = 0;
 
         public void depositar(double valor)
         {
-            this.saldo += valor;
+            saldo += valor;
         }
         public bool sacar(double valor)
         {
-            if (this.saldo >= valor)
+            if (saldo >= valor)
             {
-                this.saldo -= valor;
+                saldo -= valor;
                 return true;
             }
             return false;
         }
         public bool tranferir(double valor, ContaCorrente destino)
         {
-            if(this.saldo >= valor)
+            if (saldo >= valor)
             {
-                this.sacar(valor);
+                sacar(valor);
                 destino.depositar(valor);
                 return true;
             }
@@ -40,10 +41,19 @@ namespace bytebank
         //desafio modulo 3
         public void mostrar()
         {
-            Console.WriteLine(this.titular);
-            Console.WriteLine(this.numeroAgencia);
-            Console.WriteLine(this.conta);
-            Console.WriteLine(this.saldo);
+            Console.WriteLine(titular);
+            Console.WriteLine(numeroAgencia);
+            Console.WriteLine(conta);
+            Console.WriteLine(saldo);
+        }
+        public void definirSaldo(double valor)
+        {
+            if (valor < 0) return;
+            saldo = valor;
+        }
+        public double recuperarSaldo()
+        {
+            return saldo;
         }
     }
 }
