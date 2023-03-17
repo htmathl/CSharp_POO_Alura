@@ -109,8 +109,38 @@ using bytebank.Titular;
 
 //Console.WriteLine(conta2.titular.nome);
 
-ContaCorrente conta3 = new();
+//ContaCorrente conta3 = new();
 
-conta3.definirSaldo(500);
+//conta3.NumeroAgencia = 18;
+//conta3.definirSaldo(500);
+//conta3.Conta = "5598-X";
+//conta3.Titular = new Cliente();
+//conta3.Titular.Cpf = "52496488";
 
-Console.WriteLine(conta3.recuperarSaldo());
+//Console.WriteLine(conta3.recuperarSaldo());
+//Console.WriteLine(conta3.NumeroAgencia);
+//Console.WriteLine(conta3.Conta);
+//Console.WriteLine(conta3.Titular.Cpf);
+
+//ContaCorrente conta4 = new(-1, "20225-L");
+//conta4.definirSaldo(500);
+//conta4.Titular = new Cliente();
+
+//Console.WriteLine(conta4.recuperarSaldo());
+//Console.WriteLine(conta4.NumeroAgencia);
+
+
+//Membro estático é relacionado a classe e não ao objeto
+ContaCorrente conta5 = new(286, "Miau", new Cliente("claudio", "654444", "Uau"));
+Console.WriteLine(conta5.Titular.Profissao);
+Console.WriteLine(ContaCorrente.TotalDeContas);
+
+
+//Membro tem o set privado
+//ContaCorrente.TotalDeContas = 100;
+
+ContaCorrente conta6 = new(895, "589-M", new Cliente("sergio", "55748", "ui"));
+Console.WriteLine(ContaCorrente.TotalDeContas);
+
+ContaCorrente conta7 = new(895, "589-MM", new Cliente("mauricio", "64587", "aaa"));
+Console.WriteLine(ContaCorrente.TotalDeContas);

@@ -10,9 +10,18 @@ namespace bytebank.Contas
 {
     public class ContaCorrente
     {
-        public int numeroAgencia;
-        public string conta;
-        public Cliente titular;
+        public static int TotalDeContas { get; private set; }
+        private int numeroAgencia;
+        public int NumeroAgencia
+        {
+            get { return numeroAgencia; }
+            private set { if(value > 0) numeroAgencia = value; }
+        }
+        //private string conta;
+        //o c# cria em tempo de execução uma variável privada
+        public string Conta { get; set; }
+
+        public Cliente Titular { get; set; }
         private double saldo = 0;
 
         public void depositar(double valor)
@@ -41,9 +50,9 @@ namespace bytebank.Contas
         //desafio modulo 3
         public void mostrar()
         {
-            Console.WriteLine(titular);
+            Console.WriteLine(Titular);
             Console.WriteLine(numeroAgencia);
-            Console.WriteLine(conta);
+            Console.WriteLine(Conta);
             Console.WriteLine(saldo);
         }
         public void definirSaldo(double valor)
@@ -54,6 +63,14 @@ namespace bytebank.Contas
         public double recuperarSaldo()
         {
             return saldo;
+        }
+        //É possível ter mais de um método construtor em uma classe
+        public ContaCorrente(int numeroAgencia, string numeroConta, Cliente titular)
+        {
+            this.NumeroAgencia = numeroAgencia;
+            this.Conta = numeroConta;
+            Titular = titular;
+            TotalDeContas++;
         }
     }
 }
